@@ -2,12 +2,12 @@
 name: 'component'
 description: 'Component scaffolding...'
 message: 'Please enter component name.'
-root: './src'
+root: './src/components'
 output: '**/*'
 ignore: []
 ---
 
-# `{{ input }}.vue`
+# `{{ input }}/index.vue`
 
 ```markdown
 <template>
