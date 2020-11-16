@@ -1,0 +1,18 @@
+@charset 'utf-8';
+
+.Avatar {
+  @at-root {
+    .Avatar__text {
+      color: lightsalmon;
+      font-weight: 700;
+
+      &._red {
+        color: red;
+
+        &:hover {
+          color: blue;
+        }
+      }
+    }
+  }
+}
