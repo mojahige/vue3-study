@@ -2,17 +2,24 @@
 
 .Avatar {
   @at-root {
+    & {
+      text-align: center;
+    }
+
+    .Avatar__image {
+      width: 60px;
+      height: 60px;
+      margin: 0 auto;
+      border-radius: 50%;
+      background-color: lightsteelblue;
+    }
+
     .Avatar__text {
-      color: lightsalmon;
+      display: flex;
+      justify-content: center;
+      margin-top: 8px;
       font-weight: 700;
-
-      &._red {
-        color: red;
-
-        &:hover {
-          color: blue;
-        }
-      }
+      text-align: left;
     }
   }
 }

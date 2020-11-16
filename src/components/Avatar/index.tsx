@@ -13,8 +13,9 @@ export default defineComponent({
   },
   render() {
     return (
-      <div class="Avatar">
-        <div class={`${styles.Avatar__text} ${styles._red}`}>{this.name}</div>
+      <div class={styles.Avatar}>
+        <div class={styles.Avatar__image}></div>
+        <div class={styles.Avatar__text}>{this.name}</div>
       </div>
     );
   }
