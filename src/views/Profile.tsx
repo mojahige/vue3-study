@@ -6,7 +6,7 @@ export default defineComponent({
   setup() {
     return () => (
       <div>
-        <Avatar name="Yu Nozato" />
+        <Avatar name="mojahige" />
       </div>
     );
   }
