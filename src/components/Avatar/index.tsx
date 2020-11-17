@@ -1,7 +1,5 @@
-import styles from './index.module.scss';
+import './index.scss';
 import { defineComponent } from 'vue';
-
-console.log(styles);
 
 export default defineComponent({
   name: 'Avatar',
@@ -13,9 +11,9 @@ export default defineComponent({
   },
   render() {
     return (
-      <div class={styles.Avatar}>
-        <div class={styles.Avatar__image}></div>
-        <div class={styles.Avatar__text}>{this.name}</div>
+      <div class="Avatar">
+        <div class="Avatar__image" />
+        <div class="Avatar__text">{this.name}</div>
       </div>
     );
   }
