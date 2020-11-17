@@ -9,4 +9,12 @@
 
 <style lang="scss">
 @use "~ress/ress";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
 </style>
