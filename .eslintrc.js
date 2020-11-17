@@ -16,7 +16,6 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'vue/require-default-prop': 'error',
     '@typescript-eslint/no-unused-vars': 'error'
   },
   overrides: [
@@ -27,6 +26,13 @@ module.exports = {
       ],
       env: {
         jest: true
+      }
+    },
+    {
+      files: ['**/*.vue', '**/*.tsx'],
+      rules: {
+        'vue/require-default-prop': 'error',
+        'vue/one-component-per-file': 'off'
       }
     }
   ]
