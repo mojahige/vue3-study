@@ -1,12 +1,12 @@
 import { defineComponent } from 'vue';
-import { Avatar } from '@/components/Avatar';
+import { UserAvatar } from '@/components/UserAvatar';
 
 export default defineComponent({
   name: 'Profile',
   render() {
     return (
       <div>
-        <Avatar name="mojahige" />
+        <UserAvatar name="mojahige" />
       </div>
     );
   }

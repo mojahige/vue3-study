@@ -1,8 +1,8 @@
 import './index.scss';
 import { defineComponent } from 'vue';
 
-export const Avatar = defineComponent({
-  name: 'Avatar',
+export const UserAvatar = defineComponent({
+  name: 'UserAvatar',
   props: {
     name: {
       required: true,
@@ -15,9 +15,9 @@ export const Avatar = defineComponent({
   },
   render() {
     return (
-      <div class={this.size ? `Avatar -${this.size}` : 'Avatar'}>
-        <div class="Avatar__image" />
-        <div class="Avatar__text">{this.name}</div>
+      <div class={this.size ? `UserAvatar -${this.size}` : 'UserAvatar'}>
+        <div class="UserAvatar__image" />
+        <div class="UserAvatar__text">{this.name}</div>
       </div>
     );
   }

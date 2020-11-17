@@ -1,6 +1,6 @@
 @charset 'utf-8';
 
-.Avatar {
+.UserAvatar {
   @at-root {
     & {
       text-align: center;
@@ -13,13 +13,13 @@
       border-radius: 50%;
       background-color: lightsteelblue;
 
-      .Avatar.-l & {
+      .UserAvatar.-l & {
         width: 120px;
         height: 120px;
       }
     }
 
-    .Avatar__text {
+    .UserAvatar__text {
       display: flex;
       justify-content: center;
       margin-top: 8px;
@@ -27,7 +27,7 @@
       font-weight: 700;
       text-align: left;
 
-      .Avatar.-l & {
+      .UserAvatar.-l & {
         font-size: 2rem;
       }
     }
