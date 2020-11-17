@@ -7,5 +7,5 @@
 </template>
 
 <style lang="scss">
-@use "@/scss/app.scss";
+@use "~ress/ress";
 </style>
