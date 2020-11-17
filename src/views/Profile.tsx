@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import Avatar from '@/components/Avatar';
+import { Avatar } from '@/components/Avatar';
 
 export default defineComponent({
   name: 'Profile',
