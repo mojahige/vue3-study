@@ -12,14 +12,24 @@
       margin: 0 auto;
       border-radius: 50%;
       background-color: lightsteelblue;
+
+      .Avatar.-l & {
+        width: 120px;
+        height: 120px;
+      }
     }
 
     .Avatar__text {
       display: flex;
       justify-content: center;
       margin-top: 8px;
+      font-size: 1.4rem;
       font-weight: 700;
       text-align: left;
+
+      .Avatar.-l & {
+        font-size: 2rem;
+      }
     }
   }
 }
