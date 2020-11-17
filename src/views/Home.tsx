@@ -1,12 +1,12 @@
 import { defineComponent } from 'vue';
-import { Avatar } from '@/components/Avatar';
+import { WelcomeBoard } from '@/components/WelcomeBoard';
 
 export default defineComponent({
   name: 'Home',
   components: {
-    Avatar
+    WelcomeBoard
   },
   render() {
-    return <Avatar name="mojahige" size="l" />;
+    return <WelcomeBoard />;
   }
 });
