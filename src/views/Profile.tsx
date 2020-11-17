@@ -3,8 +3,8 @@ import Avatar from '@/components/Avatar';
 
 export default defineComponent({
   name: 'Profile',
-  setup() {
-    return () => (
+  render() {
+    return (
       <div>
         <Avatar name="mojahige" />
       </div>
